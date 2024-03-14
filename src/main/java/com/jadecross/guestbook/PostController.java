@@ -49,7 +49,7 @@ public class PostController {
 		// 	Thread.sleep(randomRange(1,5) * 1000);
 		// } catch (InterruptedException e) {}
 		
-		// return "index";
+		return "index";
 	}
 
 	@PostMapping("/")
