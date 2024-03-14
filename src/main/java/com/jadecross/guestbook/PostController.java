@@ -41,13 +41,13 @@ public class PostController {
 //	    	return "error";
 //	    }
 	    
-		// // 02. 의미없이 CPU 사용량 증가
-		// this.useCPU(1000);
+		// 02. 의미없이 CPU 사용량 증가
+		this.useCPU(1000);
 		
-		// // 03. 1~5초 사이로 랜덤하게 응답지연
-		// try {
-		// 	Thread.sleep(randomRange(1,5) * 1000);
-		// } catch (InterruptedException e) {}
+		// 03. 1~5초 사이로 랜덤하게 응답지연
+		try {
+			Thread.sleep(randomRange(1,5) * 1000);
+		} catch (InterruptedException e) {}
 		
 		return "index";
 	}
