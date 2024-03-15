@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    anviroment {
+    enviroment {
         APPROVAL_NO = ''
     }
 
